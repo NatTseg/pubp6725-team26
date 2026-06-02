@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app.diagrams.net</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: #f5f5f5;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 620px;
+            width: 90%;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: #d32f2f;
+            color: #fff;
+            padding: 24px 32px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .header svg {
+            flex-shrink: 0;
+        }
+
+        .header h1 {
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+        }
+
+        .body-content {
+            padding: 32px;
+        }
+
+        .body-content p {
+            font-size: 15px;
+            line-height: 1.65;
+            color: #333;
+            margin-bottom: 16px;
+        }
+
+        .body-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        .highlight {
+            background: #fff3e0;
+            border-left: 3px solid #e65100;
+            padding: 16px 20px;
+            margin: 20px 0;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .highlight p {
+            font-size: 14px;
+            color: #4a4a4a;
+            margin-bottom: 0;
+        }
+
+        .footer {
+            padding: 20px 32px;
+            background: #fafafa;
+            border-top: 1px solid #eee;
+        }
+
+        .footer p {
+            font-size: 13px;
+            color: #888;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+                <line x1="12" y1="9" x2="12" y2="13"/>
+                <line x1="12" y1="17" x2="12.01" y2="17"/>
+            </svg>
+            <h1>Phishing Simulation &mdash; Exercise Complete</h1>
+        </div>
+
+        <div class="body-content">
+            <p>
+                This page was part of an <strong>authorized phishing awareness exercise</strong>
+                conducted for PUBP 6725: Information Security Strategies and Policies at
+                Georgia Institute of Technology, Summer 2026.
+            </p>
+
+            <div class="highlight">
+                <p>
+                    <strong>No credentials were collected.</strong> No personal data was captured,
+                    stored, or transmitted at any point during this exercise. This page contains
+                    no tracking scripts, cookies, or data collection mechanisms of any kind.
+                </p>
+            </div>
+
+            <p>
+                The link you clicked was designed to demonstrate how social engineering
+                techniques exploit trust and routine communication patterns to direct
+                targets toward attacker-controlled infrastructure. The fact that you
+                arrived here illustrates how a real adversary could use the same method
+                to deliver a credential harvesting page or session hijacking proxy.
+            </p>
+
+            <p>
+                If you have questions about this exercise, please contact the PUBP 6725
+                instruction team.
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>
+                PUBP 6725 &middot; Assignment 1: Go Phish &middot; Group 26 &middot; Georgia Institute of Technology
+            </p>
+        </div>
+    </div>
+</body>
+</html>
